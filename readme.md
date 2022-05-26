@@ -27,3 +27,4 @@ GET /api/lunch?length=3&random=true&밥=false
     ...
 }
 ```
+Link : https://dontasklunchmenu.herokuapp.com/
