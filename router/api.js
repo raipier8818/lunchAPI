@@ -64,7 +64,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/help', (req, res) => {
-  res.send(fs.readFileSync('./readme.md', 'utf8'));
+  res.redirect('https://github.com/raipier8818/lunchAPI/blob/main/readme.md');
 });
 
 router.get('/lunch', (req, res) => {
